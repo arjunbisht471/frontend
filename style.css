@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Outfit;
 }
 
 html,
@@ -9,6 +11,10 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+}
+
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
@@ -80,6 +86,7 @@ body {
 #projectContainer .box{
     color: black;
     border-radius: 5px;
+    transition: .5s;
 }
 
 #projectContainer .box:hover{
@@ -87,18 +94,18 @@ body {
     color: white;
 }
 
-.growthBox  .box{
+#growthContainer  .box{
     background-color:white;
     text-align: center;
     padding: 20px;
     border-radius: 5px;
 }
 
-.growthBox  .box:hover{
+#growthContainer  .box:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.growthBox  .box i{
+#growthContainer  .box i{
     color: red;
     font-size: 22px;
 }
